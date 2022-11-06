@@ -1,0 +1,713 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav{
+    background: #0B3356;
+    display: flex;
+    height: 60px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    transition: 0.4s;
+}
+
+#reg{
+    font-weight: bold;
+    color: white;
+}
+
+nav a:hover{
+    background-color: rgb(197, 179, 12);
+    text-decoration: underline;
+    /* transform: background(0.3s); */
+}
+
+nav #reg:hover{
+    background-color: rgb(206, 185, 0);  
+    text-decoration: underline;
+}
+
+nav, ul{
+    display: flex;
+    padding-left: 397.5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0b3356cb;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(197, 179, 12);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#title{
+    width: 281px;
+    height: 47px;
+    font-size: 28px;
+    top: 12px;
+    left: 130px;
+    position: fixed; 
+    color: white;
+    font-family: 'Boogaloo', cursive;
+    letter-spacing: 1px;
+    z-index: 100;
+}
+
+#flor{
+    position: fixed;
+    width: 53px;
+    height: 48px;
+    z-index: 100;
+    top: 6px;
+    left: 67px;
+}
+
+#retan_ori{
+    position: relative;
+    width: 1175px;
+    height: 79px;
+    left: -20px;
+    top: 120px;
+    background: #002E55;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#orig{
+    position: absolute;
+    width: 578px;
+    height: 62px;
+    left: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#box1{
+    position: relative;
+    width: 654px;
+    height: 550px;
+    left: 65px;
+    top: 190px;
+    background: rgba(20, 42, 61, 0.83);
+    z-index: 1;
+}
+
+#centro{
+    position: absolute;
+    width: 620px;
+    height: 350px;
+    left: 670px;
+    top: 365px;
+}
+
+#box1 p{
+    position: absolute;
+    width: 550px;
+    height: 611px;
+    left: 55px;
+    top: 60px;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 35px;
+    font-family: 'Inter', sans-serif;
+}
+
+#box1 p span{
+    font-size: 60px;
+}
+
+#retan_hist{
+    position: relative;
+    width: 1175px;
+    height: 79px;
+    left: -20px;
+    top: 285px;
+    background: #002E55;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#hist{
+    position: absolute;
+    width: 578px;
+    height: 62px;
+    left: -40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#box2{
+    position: relative;
+    width: 620px;
+    height: 450px;
+    left: 670px;
+    top: 360px;
+    background: rgba(20, 42, 61, 0.83);
+    z-index: 1;
+}
+
+#box2 p{
+    position: absolute;
+    width: 510px;
+    height: 615px;
+    left: 55px;
+    top: 65px;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 35px;
+    font-family: 'Inter', sans-serif;
+}
+
+#box2 span{
+    font-size: 60px;
+}
+
+#est_jun{
+    position: absolute;
+    width: 630px;
+    height: 360px;
+    left: 80px;
+    top: 1115px;
+}
+
+#desc{
+    position: relative;
+    width: 329px;
+    height: 32px;
+    left: 80px;
+    top: 317px;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+}
+
+#est_jar{
+    position: absolute;
+    width: 630px;
+    height: 360px;
+    left: 80px;
+    top: 1665px;
+}
+
+#box3{
+    position: relative;
+    width: 620px;
+    height: 570px;
+    left: 670px;
+    top: 400px;
+    background: rgba(20, 42, 61, 0.83);
+    z-index: 1;
+}
+
+#box3 p{
+    position: absolute;
+    width: 510px;
+    height: 615px;
+    left: 55px;
+    top: 65px;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 35px;
+    font-family: 'Inter', sans-serif;
+}
+
+#box3 span{
+    font-size: 60px;
+}
+
+#desc2{
+    position: relative;
+    width: 329px;
+    height: 32px;
+    left: 80px;
+    top: 265px;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+}
+
+#yellow{
+    position: relative;
+    width: 990px;
+    height: 260px;
+    left: 290px;
+    top: 460px;
+    background: #ddc80f;
+}
+
+#azul{
+    position: relative;
+    width: 1100px;
+    height: 240px;
+    left: 130px;
+    top: 240px;
+    background: #31485C;
+}
+
+#azul p{
+    position: absolute;
+    width: 1000px;
+    text-align: center;
+    left: 45px;
+    top: 60px;
+    font-size: 28px;
+    color: #FFFFFF;
+    line-height: 35px;
+    font-family: 'Inter', sans-serif;
+}
+
+#retan_evol{
+    position: relative;
+    width: 1175px;
+    height: 79px;
+    left: -20px;
+    top: 340px;
+    background: #002E55;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#retan_evol p{
+    position: absolute;
+    width: 1000px;
+    height: 62px;
+    left: 90px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    line-height: 84px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.img_efeito1 img{
+    position: relative;
+    width: 604px;
+    height: 357px;
+    left: 50px;
+    top: 400px;
+}
+
+.desc1{
+    position: relative;
+    width: 400px;
+    height: 61px;
+    left: 155px;
+    top: 360px;
+    background: rgba(212, 195, 36, 0.85);
+}
+
+.desc1 span{
+    position: absolute;
+    width: 372px;
+    height: 29px;
+    left: 47px;
+    top: 19px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.img_efeito1 img:hover{
+    box-shadow: 0px 8px 16px 8px rgba(233, 236, 10, 0.795);
+}
+
+.img_efeito2 img{
+    position: relative;
+    width: 604px;
+    height: 357px;
+    left: 690px;
+    bottom: 22px;
+}
+
+.desc2{
+    position: relative;
+    width: 400px;
+    height: 61px;
+    left: 800px;
+    bottom: 62px;
+    background: rgba(212, 195, 36, 0.85);
+}
+
+.desc2 span{
+    position: absolute;
+    width: 372px;
+    height: 29px;
+    left: 31px;
+    top: 19px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.img_efeito2 img:hover{
+    box-shadow: 0px 8px 16px 8px rgba(233, 236, 10, 0.795);
+}
+
+.text_cor span{
+    font-size: 60px;
+}
+
+.text_cor{
+    position: absolute;
+    width: 1271px;
+    height: 321px;
+    left: 50px;
+    top: 3200px;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    line-height: 37px;
+}
+
+#retan_igre{
+    position: relative;
+    width: 1175px;
+    height: 79px;
+    left: -20px;
+    top: 280px;
+    background: #002E55;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#retan_igre p{
+    position: absolute;
+    width: 1000px;
+    height: 62px;
+    left: 90px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    line-height: 84px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.img_efeito3 img{
+    position: relative;
+    width: 604px;
+    height: 357px;
+    left: 50px;
+    top: 350px;
+}
+
+.desc3{
+    position: relative;
+    width: 400px;
+    height: 61px;
+    left: 155px;
+    top: 310px;
+    background: rgba(212, 195, 36, 0.85);
+}
+
+.desc3 span{
+    position: absolute;
+    width: 372px;
+    height: 29px;
+    left: 20px;
+    top: 19px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.img_efeito3 img:hover{
+    box-shadow: 0px 8px 16px 8px rgba(233, 236, 10, 0.795);
+}
+
+.img_efeito4 img{
+    position: relative;
+    width: 604px;
+    height: 357px;
+    left: 690px;
+    bottom: 72px;
+}
+
+.desc4{
+    position: relative;
+    width: 400px;
+    height: 61px;
+    left: 800px;
+    bottom: 110px;
+    background: rgba(212, 195, 36, 0.85);
+}
+
+.desc4 span{
+    position: absolute;
+    width: 372px;
+    height: 25px;
+    left: 52px;
+    top: 18px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.img_efeito4 img:hover{
+    box-shadow: 0px 8px 16px 8px rgba(233, 236, 10, 0.795);
+}
+
+.text_igre span{
+    font-size: 60px;
+}
+
+.text_igre{
+    position: absolute;
+    width: 1271px;
+    height: 321px;
+    left: 50px;
+    top: 4070px;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    line-height: 37px;
+}
+
+#linha{
+    position: absolute;
+    width: 1336px;
+    top: 4350px;
+    border: 4px solid rgba(220, 204, 53, 0.88);
+}
+
+#flor_preta{
+    position: absolute;
+    top: 4370px;
+    left: 60px;
+}
+
+#title2{
+    position: absolute;
+    width: 258px;
+    height: 48px;
+    left: 135px;
+    top: 4380px;
+    font-family: 'Boogaloo', cursive;
+    font-size: 36px;
+    color: #000000;
+}
+
+#sobre_mim{
+    position: absolute;
+    width: 160px;
+    height: 34px;
+    left: 70px;
+    top: 4460px;
+    font-size: 28px;
+    line-height: 33px;
+    color: #E1D34E;
+    font-family: 'Poppins', sans-serif;
+}
+
+#texto_sobre{
+    position: absolute;
+    width: 470px;
+    height: 46px;
+    left: 70px;
+    top: 4500px;
+    font-size: 22px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+}
+
+#cont{
+    position: absolute;
+    width: 88px;
+    height: 33px;
+    left: 70px;
+    top: 4590px;
+    font-size: 28px;
+    line-height: 33px;
+    color: #E1D34E;
+    font-family: 'Poppins', sans-serif;
+}
+
+#icon_tel{
+    position: absolute;
+    width: 28px;
+    height: 24px;
+    left: 70px;
+    top: 4635px;
+}
+
+#tel{
+    position: absolute;
+    width: 170px;
+    height: 28px;
+    left: 120px;
+    top: 4633px;
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+}
+
+#icon_email{
+    position: absolute;
+    width: 32px;
+    height: 21px;
+    left: 70px;
+    top: 4680px;
+}
+
+#email{
+    position: absolute;
+    width: 158px;
+    height: 28px;
+    left: 120px;
+    top: 4677px;
+    font-size: 22px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+}
+
+#conta{
+    position: absolute;
+    width: 144px;
+    height: 34px;
+    left: 600px;
+    top: 4458px;
+    font-size: 26px;
+    color: #E1D34E;
+    font-family: 'Poppins', sans-serif;
+}
+
+#log{
+    position: absolute;
+    width: 144px;
+    height: 34px;
+    left: 600px;
+    top: 4498px;
+    font-size: 22px;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+#cadas{
+    position: absolute;
+    width: 144px;
+    height: 34px;
+    left: 600px;
+    top: 4530px;
+    font-size: 22px;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+#fale{
+    position: absolute;
+    width: 180px;
+    height: 34px;
+    left: 600px;
+    top: 4585px;
+    font-size: 26px;
+    color: #E1D34E;
+    font-family: 'Poppins', sans-serif;
+}
+
+#germ{
+    position: absolute;
+    width: 300px;
+    height: 34px;
+    left: 600px;
+    top: 4660px;
+    font-size: 26px;
+    color: #E1D34E;
+    font-family: 'Poppins', sans-serif;
+}
+
+label{
+    position: absolute;
+    width: 400px;
+    height: 33px;
+    left: 920px;
+    top: 4480px;
+    font-size: 24px;
+    color: rgba(225, 211, 78, 1);
+    font-family: 'Poppins', sans-serif;
+}
+
+#femail{
+    box-sizing: border-box;
+    position: absolute;
+    width: 298px;
+    height: 72px;
+    left: 920px;
+    top: 4520px;
+    border: 1px solid #000000;
+    font-size: 18px;
+    padding-left: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+#enviar{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 1230px;
+    top: 4530px;
+    background: #142A3D;
+    border: 1px solid #142A3D;
+    border-radius: 11px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+#redes{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 930px;
+    top: 4610px;
+}

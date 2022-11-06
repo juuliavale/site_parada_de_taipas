@@ -1,0 +1,685 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav{
+    background: #0B3356;
+    display: flex;
+    height: 60px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    transition: 0.4s;
+}
+
+#reg{
+    font-weight: bold;
+    color: white;
+}
+
+nav a:hover{
+    background-color: rgb(197, 179, 12);
+    text-decoration: underline;
+    /* transform: background(0.3s); */
+}
+
+nav #reg:hover{
+    background-color: rgb(206, 185, 0);  
+    text-decoration: underline;
+}
+
+nav, ul{
+    display: flex;
+    padding-left: 397.5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0b3356cb;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(197, 179, 12);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#title{
+    width: 281px;
+    height: 47px;
+    font-size: 28px;
+    top: 12px;
+    left: 130px;
+    position: fixed; 
+    color: white;
+    font-family: 'Boogaloo', cursive;
+    letter-spacing: 1px;
+    z-index: 100;
+}
+
+#flor{
+    position: fixed;
+    width: 53px;
+    height: 48px;
+    z-index: 100;
+    top: 6px;
+    left: 67px;
+}
+
+#retan_com{
+    position: relative;
+    width: 1175px;
+    height: 79px;
+    left: -20px;
+    top: 130px;
+    background: #002E55;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#retan_com p{
+    position: absolute;
+    width: 578px;
+    height: 62px;
+    left: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#quadro_amarelo{
+    position: absolute;
+    width: 580px;
+    height: 350px;
+    right: 0px;
+    top: 260px;
+    background: #DCCC35;
+}
+
+#loj{
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    left: 690px;
+    top: 310px;
+}
+
+#par_com{
+    position: absolute;
+    width: 568px;
+    height: 316px;
+    left: 40px;
+    top: 380px;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+}
+
+#par_com span{
+    font-size: 60px;
+}
+
+#quadro_amarelo2{
+    position: absolute;
+    width: 580px;
+    height: 360px;
+    left: 0px;
+    top: 780px;
+    background: #DCCC35;
+}
+
+#loj2{
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    left: 50px;
+    top: 830px;
+}
+
+#par_moda{
+    position: absolute;
+    width: 600px;
+    height: 460px;
+    left: 720px;
+    top: 815px;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+#par_moda span{
+    font-size: 60px;
+}
+
+.caixa_azul{
+    position: relative;
+    width: 523px;
+    height: 540px;
+    left: 410px;
+    top: 800px;
+    background: #0B2D4A;
+}
+
+#loj_hist{
+    position: absolute;
+    width: 475px;
+    height: 60px;
+    left: 26px;
+    top: 55px;
+    font-size: 37px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+#misto{
+    position: absolute;
+    width: 420px;
+    height: 396px;
+    left: 50px;
+    top: 145px;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+#sergio{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    left: 63px;
+    top: 1300px;
+}
+
+#araujo{
+    position: absolute;
+    width: 500px;
+    height: 450px;
+    left: 785px;
+    top: 1380px;
+}
+
+#sergio:hover{
+    box-shadow: 0px 8px 16px 8px rgba(187, 190, 9, 0.795);
+}
+
+#araujo:hover{
+    box-shadow: 0px 8px 16px 8px rgba(187, 190, 9, 0.795);
+}
+
+#retan_cant{
+    position: relative;
+    width: 1175px;
+    height: 79px;
+    left: -20px;
+    top: 900px;
+    background: #002E55;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#retan_cant p{
+    position: absolute;
+    width: 750px;
+    height: 62px;
+    left: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#quadro_amarelo3{
+    position: absolute;
+    width: 300px;
+    height: 550px;
+    left: 0px;
+    top: 2120px;
+    background: #DCCC35;
+}
+
+#img_cant{
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    left: 48px;
+    top: 2225px;
+}
+
+#text_cant span{
+    font-size: 60px;
+}
+
+#text_cant{
+    position: absolute;
+    width: 568px;
+    height: 316px;
+    left: 720px;
+    top: 2300px;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+}
+
+#quadro_amarelo4{
+    position: absolute;
+    width: 300px;
+    height: 550px;
+    right: 0px;
+    top: 2750px;
+    background: #DCCC35;
+}
+
+
+#img_parq{
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    right: 60px;
+    top: 2860px;
+}
+
+#text_parq span{
+    font-size: 60px;
+}
+
+#text_parq{
+    position: absolute;
+    width: 568px;
+    height: 316px;
+    left: 45px;
+    top: 2850px;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+}
+
+#linha_vid{
+    position: relative;
+    width: 0px;
+    height: 88px;
+    left: 45px;
+    top: 2270px;
+    border: 3px solid #142A3D;
+}
+
+#linha_vid p{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    width: 572px;
+    height: 92px;
+    left: 30px;
+    bottom: 2px;
+    font-size: 35px;
+    line-height: 45px;
+    color: #0B3356;
+}
+
+.video img{
+    position: absolute;
+    width: 640px;
+    height: 550px;
+    right: 40px;
+    top: 3420px;
+}
+
+.video iframe{
+    position: absolute;
+    width: 588px;
+    height: 280px;
+    right: 66px;
+    top: 3500px;
+}
+
+#shop_insta{
+    position: absolute;
+    width: 500px;
+    height: 650px;
+    left: 0px;
+    top: 250em;
+}
+
+#sombra1{
+    position: absolute;
+    width: 490px;
+    height: 250px;
+    right: 230px;
+    top: 255em;
+    background: rgba(22, 17, 17, 0.37);
+}
+
+#quadro_azul1{
+    position: absolute;
+    width: 500px;
+    height: 260px;
+    right: 170px;
+    top: 257.5em;
+    background: #0B2D4A;
+}
+
+#quadro_azul1 p{
+    position: absolute;
+    width: 440px;
+    height: 222px;
+    left: 30px;
+    top: 55px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+#sombra2{
+    position: absolute;
+    width: 490px;
+    height: 250px;
+    right: 30px;
+    top: 278em;
+    background: rgba(22, 17, 17, 0.37);
+}
+
+#quadro_azul2{
+    position: absolute;
+    width: 500px;
+    height: 260px;
+    right: 80px;
+    top: 280.5em;
+    background: #0B2D4A;
+}
+
+#quadro_azul2 p{
+    position: absolute;
+    width: 440px;
+    height: 222px;
+    left: 30px;
+    top: 46px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+#retan_amarelo{
+    position: relative;
+    width: 630px;
+    height: 90px;
+    left: 714px;
+    top: 222em;
+    background: #DCCC35;
+}
+
+#retan_amarelo p{
+    position: absolute;
+    width: 600px;
+    height: 72px;
+    left: 20px;
+    top: 15px;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+.link_cant:visited{
+    background-color: #000000;
+    font-weight: bold;
+}
+
+#linha{
+    position: absolute;
+    width: 1336px;
+    top: 310em;
+    border: 4px solid rgba(220, 204, 53, 0.88);
+}
+
+#flor_preta{
+    position: absolute;
+    top: 311.5em;
+    left: 60px;
+}
+
+#title2{
+    position: absolute;
+    width: 258px;
+    height: 48px;
+    left: 135px;
+    top: 138.6em;
+    font-family: 'Boogaloo', cursive;
+    font-size: 36px;
+    color: #000000;
+}
+
+#sobre_mim{
+    position: absolute;
+    width: 160px;
+    height: 34px;
+    left: 70px;
+    top: 181.5em;
+    font-size: 28px;
+    line-height: 33px;
+    color: #E1D34E;
+    font-family: 'Poppins', sans-serif;
+}
+
+#texto_sobre{
+    position: absolute;
+    width: 470px;
+    height: 46px;
+    left: 70px;
+    top: 233em;
+    font-size: 22px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+}
+
+#cont{
+    position: absolute;
+    width: 88px;
+    height: 33px;
+    left: 70px;
+    top: 186.5em;
+    font-size: 28px;
+    line-height: 33px;
+    color: #E1D34E;
+    font-family: 'Poppins', sans-serif;
+}
+
+#icon_tel{
+    position: absolute;
+    width: 28px;
+    height: 24px;
+    left: 70px;
+    top: 329.5em;
+}
+
+#tel{
+    position: absolute;
+    width: 170px;
+    height: 28px;
+    left: 120px;
+    top: 239.5em;
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+}
+
+#icon_email{
+    position: absolute;
+    width: 32px;
+    height: 21px;
+    left: 70px;
+    top: 332.2em;
+}
+
+#email{
+    position: absolute;
+    width: 158px;
+    height: 28px;
+    left: 120px;
+    top: 241.5em;
+    font-size: 22px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+}
+
+#conta{
+    position: absolute;
+    width: 144px;
+    height: 34px;
+    left: 680px;
+    top: 195.4em;
+    font-size: 26px;
+    color: #E1D34E;
+    font-family: 'Poppins', sans-serif;
+}
+
+#log{
+    position: absolute;
+    width: 144px;
+    height: 34px;
+    left: 680px;
+    top: 233em;
+    font-size: 22px;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+#cadas{
+    position: absolute;
+    width: 144px;
+    height: 34px;
+    left: 680px;
+    top: 234.7em;
+    font-size: 22px;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+#fale{
+    position: absolute;
+    width: 180px;
+    height: 34px;
+    left: 680px;
+    top: 201em;
+    font-size: 26px;
+    color: #E1D34E;
+    font-family: 'Poppins', sans-serif;
+}
+
+#germ{
+    position: absolute;
+    width: 300px;
+    height: 34px;
+    left: 680px;
+    top: 203.8em;
+    font-size: 26px;
+    color: #E1D34E;
+    font-family: 'Poppins', sans-serif;
+}
+
+label{
+    position: absolute;
+    width: 400px;
+    height: 33px;
+    left: 930px;
+    top: 213em;
+    font-size: 24px;
+    color: rgba(225, 211, 78, 1);
+    font-family: 'Poppins', sans-serif;
+}
+
+#femail{
+    box-sizing: border-box;
+    position: absolute;
+    width: 298px;
+    height: 72px;
+    left: 930px;
+    top: 287em;
+    border: 1px solid #000000;
+    font-size: 18px;
+    padding-left: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+#enviar{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 1235px;
+    top: 287.5em;
+    background: #142A3D;
+    border: 1px solid #142A3D;
+    border-radius: 11px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+#redes{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 930px;
+    top: 328em;
+}

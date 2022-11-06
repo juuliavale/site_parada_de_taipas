@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+    <div id="linha_central"></div>
+
+    <div class="login">
+        <p>LOGIN</p>
+    </div>
+
+    <form action="#" id="nome">
+        <label for="fnome">Nome:</label>
+        <br>
+        <input type="text" name="fnome" id="fnome" maxlength="50" size="25">
+    </form>    
+
+    <form action="#" id="senha">
+        <label for="fpass">Senha <span>(mínimo de 8 dígitos):</span></label>
+        <br>
+        <input type="password" name="fpass" id="fpass" , maxlength="12" , title="senha numérica de 8 a 12 dígitos"inputmode="numeric">
+    </form>
+
+    <input type="checkbox" name="fconect" id="fconect" required>
+    <label for="faceite" id="conect">Manter conectado</label>
+    <br>
+    <br>
+    <form action="index.html">
+        <input type="submit" value="Enviar" id="conec_env">
+    </form>
+
+    <div id="cadastro">
+        <p>CADASTRE-SE</p>
+    </div>
+
+    <form action="#" id="nome2">
+        <label for="fnome2">Nome:</label>
+        <br>
+        <input type="text" name="fnome2" id="fnome2" maxlength="50" size="25">
+    </form>    
+
+    <p id="gen">Gênero:</p>
+    <input type="radio" name="genero" id="femid" value="f">
+    <label for="femid" id="femlab">Feminino</label>
+    <input type="radio" name="genero" id="mascid" value="m">
+    <label for="mascid" id="maslab">Masculino</label>
+    <input type="radio" name="genero" id="outroid" value="0">
+    <label for="outroid" id="outlab">Outro</label>
+
+    <form action="#" id="email">
+        <label for="email"> Email: </label>
+        <br>
+        <input type="email" name="femail" id="femail" , placeholder="exemplo@gmail.com">
+    </form>
+
+    <form action="#" id="senha2">
+        <label for="fpass2">Senha <span>(mínimo de 8 dígitos):</span></label>
+        <br>
+        <input type="password" name="fpass2" id="fpass2" , maxlength="12" , title="senha numérica de 8 a 12 dígitos"inputmode="numeric">
+    </form>
+
+    <form action="index.html">
+        <input type="submit" value="Registrar" id="reg_env">
+    </form>
+
+</body>
+</html>

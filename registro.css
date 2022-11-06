@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#linha_central{
+    position: relative;
+    width: 125%;
+    right: 170px;
+    border: 2px solid #F2E34E;
+    transform: rotate(-90deg);
+}
+
+.login{
+    position: relative;
+    width: 624px;
+    height: 90px;
+    left: 25px;
+    top: 24px;
+    background: #F9FFD2;
+}
+
+.login p{
+    position: absolute;
+    width: 150px;
+    height: 68px;
+    left: 240px;
+    top: 20px;
+    font-size: 45px;
+    text-align: center;
+    color: #DCCC35;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nome{
+    position: absolute;
+    width: 83px;
+    height: 30px;
+    left: 30px;
+    top: 150px;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+}
+
+#fnome{
+    position: relative;
+    width: 560px;
+    height: 58px;
+    left: 0px;
+    top: 10px;
+    border: 2px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-size: 18px;
+}
+
+#senha{
+    position: absolute;
+    width: 350px;
+    height: 30px;
+    left: 30px;
+    top: 300px;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+}
+
+#senha span{
+    font-size: 20px;
+}
+
+#fpass{
+    position: relative;
+    width: 555px;
+    height: 58px;
+    left: 3px;
+    top: 10px;
+    border: 2px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+#fconect{
+    position: relative;
+    width: 32px;
+    height: 29px;
+    left: 30px;
+    top: 330px;
+    border: 2px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+#conect{
+    position: absolute;
+    width: 194px;
+    height: 24px;
+    left: 70px;
+    top: 429px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+#conec_env{
+    position: absolute;
+    width: 497px;
+    height: 75px;
+    left: 85px;
+    top: 529px;
+    background: #142A3D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    border-style: none;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF
+}
+
+#li1{
+    position: relative;
+    width: 225px;
+    height: 0px;
+    left: 0px;
+    top: 0px;
+    border: 2px solid #063054;
+}
+
+#ou{
+    position: absolute;
+    width: 29px;
+    height: 24px;
+    left: 328px;
+    top: 637px;
+    font-size: 20px;
+}
+
+#cadastro{
+    position: absolute;
+    width: 624px;
+    height: 90px;
+    left: 700px;
+    top: 28px;
+    background: #F9FAD7;
+    position: absolute;
+    font-size: 45px;
+    color: #DCCC35;
+}
+
+#cadastro p{
+    position: absolute;
+    width: 450px;
+    height: 68px;
+    left: 160px;
+    top: 20px;
+    font-size: 45px;
+    color: #DCCC35;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nome2{
+    position: absolute;
+    width: 83px;
+    height: 30px;
+    left: 700px;
+    top: 150px;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+}
+
+#fnome2{
+    position: relative;
+    width: 560px;
+    height: 58px;
+    left: 0px;
+    top: 10px;
+    border: 2px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-size: 18px;
+}
+
+#gen{
+    position: absolute;
+    width: 83px;
+    height: 30px;
+    left: 700px;
+    top: 300px;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+}
+
+#femid, #mascid, #outroid{
+    position: relative;
+    left: 690px;
+    top: 200px;
+    display: inline-block;
+    width: 50px;
+    height: 22px;
+}
+
+#femlab, #maslab, #outlab{
+    position: relative;
+    left: 670px;
+    top: 195px;
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+#email{
+    position: absolute;
+    width: 83px;
+    height: 30px;
+    left: 700px;
+    top: 420px;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+}
+
+#femail{
+    position: relative;
+    width: 560px;
+    height: 58px;
+    left: 0px;
+    top: 10px;
+    border: 2px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+#senha2{
+    position: absolute;
+    width: 350px;
+    height: 30px;
+    left: 700px;
+    top: 580px;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+}
+
+#senha2 span{
+    font-size: 20px;
+}
+
+#fpass2{
+    position: relative;
+    width: 555px;
+    height: 58px;
+    left: 3px;
+    top: 10px;
+    border: 2px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+#reg_env{
+    position: absolute;
+    width: 497px;
+    height: 75px;
+    left: 750px;
+    top: 730px;
+    background: #142A3D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    border-style: none;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF
+}
+
